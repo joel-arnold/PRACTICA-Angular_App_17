@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fotosfirebase-9293c": {
+      "hosting": {
+        "fotosFirebase": [
+          "fotosfirebase-9293c"
+        ]
+      }
+    }
+  }
+}
