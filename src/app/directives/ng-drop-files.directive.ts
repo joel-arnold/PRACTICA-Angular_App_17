@@ -48,8 +48,6 @@ export class NgDropFilesDirective {
   }
 
   private _extraerArchivos(archivosLista: FileList) {
-    // console.log( archivosLista );
-
     // tslint:disable-next-line:forin
     for (const propiedad in Object.getOwnPropertyNames(archivosLista)) {
       const archivoTemporal = archivosLista[propiedad];
@@ -59,8 +57,6 @@ export class NgDropFilesDirective {
         this.archivos.push(nuevoArchivo);
       }
     }
-
-    console.log(this.archivos);
   }
 
   // Validaciones
